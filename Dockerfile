@@ -1,15 +1,16 @@
-FROM alpine
+FROM farmcoolcow/alpine_entrypoint
 
 MAINTAINER Jean-Michel Ruiz <mail@coolcow.org>
 
-RUN apk --no-cache --update add duplicity su-exec
+ENV ENTRYPOINT_USER=duplicity
+ENV ENTRYPOINT_GROUP=duplicity
+ENV ENTRYPOINT_HOME=/home
 
-WORKDIR /home
+RUN apk --no-cache --update add \
+      duplicity
 
-COPY entrypoint.sh /usr/local/bin/entrypoint.sh
-RUN chmod +x /usr/local/bin/entrypoint.sh
+WORKDIR $ENTRYPOINT_HOME
 
-#                            USER         GROUP        HOME     COMMAND
-ENTRYPOINT ["entrypoint.sh", "duplicity", "duplicity", "/home", "duplicity"]
+ENTRYPOINT ["/entrypoint_su-exec.sh", "duplicity"]
 
 CMD ["--help"]
