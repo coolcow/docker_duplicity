@@ -2,7 +2,10 @@ FROM alpine
 
 MAINTAINER Jean-Michel Ruiz <mail@coolcow.org>
 
-RUN apk --no-cache --update add duplicity su-exec
+RUN apk --no-cache --update add \
+      duplicity \
+      shadow \
+      su-exec
 
 WORKDIR /home
 
