@@ -1,5 +1,5 @@
-# farmcoolcow/duplicity ![](ht
-tps://images.microbadger.com/badges/version/farmcoolcow/duplicity.svg) ![](https://images.microbadger.com/badges/commit/farmcoolcow/duplicity.svg) ![](https://images.microbadger.com/badges/image/farmcoolcow/duplicity.svg) ![](https://images.microbadger.com/badges/license/farmcoolcow/duplicity.svg)
+# farmcoolcow/duplicity 
+![](https://images.microbadger.com/badges/version/farmcoolcow/duplicity.svg) ![](https://images.microbadger.com/badges/commit/farmcoolcow/duplicity.svg) ![](https://images.microbadger.com/badges/image/farmcoolcow/duplicity.svg) ![](https://images.microbadger.com/badges/license/farmcoolcow/duplicity.svg)
 
 ---
 
