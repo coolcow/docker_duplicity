@@ -23,7 +23,7 @@ LABEL org.label-schema.build-date=$BUILD_DATE \
 # Evironment variables
 
 ENV ENTRYPOINT_USER=duplicity \
-    ENTRYPOINT_GROUP=duplicity
+    ENTRYPOINT_GROUP=duplicity \
     ENTRYPOINT_HOME=/home
 
 # install duplicity
