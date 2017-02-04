@@ -1,2 +1,8 @@
+
+NAMESPACE = farmcoolcow
+NAME = duplicity
+INSTANCE = test
+DEPENDENCIES = alpine farmcoolcow/entrypoints
+VERSION ?= latest
 ENVIRONMENTS = 
 VOLUMES = 
