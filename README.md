@@ -1,5 +1,9 @@
 # farmcoolcow/duplicity 
-[![](https://img.shields.io/badge/  FROM  -farmcoolcow/entrypoints-lightgray.svg)](https://hub.docker.com/r/farmcoolcow/entrypoints) ![](https://images.microbadger.com/badges/commit/farmcoolcow/duplicity.svg) ![](https://images.microbadger.com/badges/image/farmcoolcow/duplicity.svg) ![](https://images.microbadger.com/badges/license/farmcoolcow/duplicity.svg)
+
+[![](https://img.shields.io/badge/  FROM  -farmcoolcow/entrypoints-lightgray.svg)](https://hub.docker.com/r/farmcoolcow/entrypoints) 
+[![](https://images.microbadger.com/badges/commit/farmcoolcow/duplicity.svg)](https://github.com/coolcow/docker_duplicity/commits/master) 
+[![](https://images.microbadger.com/badges/image/farmcoolcow/duplicity.svg)](https://microbadger.com/images/farmcoolcow/duplicity) 
+[![](https://images.microbadger.com/badges/license/farmcoolcow/duplicity.svg)](https://raw.githubusercontent.com/coolcow/docker_duplicity/master/LICENSE.txt)
 
 ---
 
