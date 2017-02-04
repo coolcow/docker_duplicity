@@ -1,5 +1,5 @@
 # farmcoolcow/duplicity 
-![](https://images.microbadger.com/badges/version/farmcoolcow/duplicity.svg) ![](https://images.microbadger.com/badges/commit/farmcoolcow/duplicity.svg) ![](https://images.microbadger.com/badges/image/farmcoolcow/duplicity.svg) ![](https://images.microbadger.com/badges/license/farmcoolcow/duplicity.svg)
+[![](https://img.shields.io/badge/  FROM  -farmcoolcow/entrypoints-lightgray.svg)](https://hub.docker.com/r/farmcoolcow/entrypoints) ![](https://images.microbadger.com/badges/commit/farmcoolcow/duplicity.svg) ![](https://images.microbadger.com/badges/image/farmcoolcow/duplicity.svg) ![](https://images.microbadger.com/badges/license/farmcoolcow/duplicity.svg)
 
 ---
 
@@ -15,7 +15,7 @@ More informations on [the official duplicity website](http://duplicity.nongnu.or
 
 ## How to use this image
 
-This image is based on [farmcoolcow/alpine_entrypoint](https://hub.docker.com/r/farmcoolcow/alpine_entrypoint/).
+This image is based on [farmcoolcow/entrypoints](https://hub.docker.com/r/farmcoolcow/entrypoints/).
 
 The default **ENTRYPOINT** is ```duplicity``` and the default **CMD** is ```--help```.
 
